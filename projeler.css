@@ -1,0 +1,126 @@
+/* --- Genel Sayfa Stilleri --- */
+        body
+        {
+            background-color: #0d1117; /* koyu arka plan */
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #f0f6fc;
+        }
+        /* Ortak logo kutusu */
+        .logo-box
+        {
+            display: flex;
+            align-items: center;     /* dikeyde ortala */
+            justify-content: center; /* yatayda ortala */
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        /* Ortak yazı stili */
+        .logo-title 
+        {
+            font-size: 28px;
+            font-weight: 700;
+            color: #f0f6fc;
+        }
+
+        /* Küçük logo boyutu */
+        .logo-small
+        {
+            height: 100px;
+        }
+
+        /* Büyük logo boyutu */
+        .logo-big 
+        {
+            height: 300px;
+        }
+
+
+        /* --- Ana Bölüm Kutusu --- */
+        section
+        {
+            background-color: #1e2a38; /* koyu gri-mavi */
+            border-radius: 12px;
+            padding: 40px 50px;
+            margin: 50px auto;
+            max-width: 900px;
+            line-height: 1.6;
+            
+        }
+
+        /* Başlıklar */
+        h1, h2
+        {
+            color: #1e90ff;
+            margin-bottom: 10px;
+        }
+
+        h1
+        {
+            font-size: 36px;
+            border-bottom: 0px solid #1e90ff;
+            padding-bottom: 8px;
+        }
+
+        h2
+        {
+            font-size: 28px;
+            margin-top: 40px;
+        }
+
+        /* Paragraflar */
+        p
+        {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        /* Liste */
+        li
+        {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 15px;
+            color: #ffffff;
+        }
+
+        /* Görseller */
+        img
+        {
+            border-radius: 8px;
+        }
+
+        .center
+        {
+            text-align: center;
+        }
+
+        /* Link İçindeki Görseller */
+        a img
+        {
+            transition: transform 0.3s ease;
+        }
+
+        a img:hover
+        {
+            transform: scale(1.05);
+        }
+
+        /* Logo Yazısı */
+        .logo-title
+        {
+            font-size: 28px;
+            font-weight: 700;
+            color: #f0f6fc;
+            margin-right: 20px;
+        }
+
+        /* Alt açıklama */
+        .note
+        {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+            color: #aaa;
+        }

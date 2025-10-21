@@ -1,0 +1,33 @@
+*{
+			text-decoration: none;
+            
+		}
+        body{
+            background-color: bisque;
+        }
+		.navbar{
+            margin-top: 0;
+            margin-bottom: 0;
+			background-color:#5C4033; font-family: calibri; padding-right: 35px;padding-left: 35px;
+		height: 100px;
+        line-height: 55px;
+        }
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 28px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 26px; font-weight: bold; margin-right: 25px;
+		}
+		button{
+			background-color: #D2691E; margin-left: 20px; border-radius: 20px; padding: 20px; width: 95px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 20px;
+            text-align: left;
+		}
